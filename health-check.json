@@ -1,0 +1,8 @@
+{
+  "check_url": "https://<your health check url>",
+  "nginx_conf": "/etc/nginx/nginx.conf",
+  "active_host": "<your active host>:443",
+  "passive_host": "<your ha host>:443",
+  "interval_sec": "10",
+  "nginx_cmd": "/etc/init.d/nginx"
+}
